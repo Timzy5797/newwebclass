@@ -1,0 +1,59 @@
+:root{
+    --primary:orange;
+    --secondary:rgb(87, 87, 214);
+    --tertiary:rgb(180, 60, 80);
+}
+#home{
+    font-size: 3em;
+    text-align: center;
+    text-shadow: gray 5px 2px 2px;
+}
+body{
+    background-color: rosybrown;
+}
+/* if you are using a class you use dot. and the class name */
+
+.nav{
+    background-color: var(--secondary);
+}
+
+/* if you want to pick out your id you use # */
+#section{
+    background-color: blueviolet;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+label{
+    color: blue;
+}
+input{
+    border: gray;
+    box-shadow: gray;
+    border-radius: 2px;
+    background-color: rgb(213, 203, 203);
+}
+input [type="password"]{
+    background-color: brown;
+}
+input [type="password"]{
+    background-color: rgb(198, 175, 175);
+    /* transition is like how fast it will take ur system to change to that color */
+    transition: 300ms;
+}
+form button{
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    padding: 20px;
+    width: 10%;
+    border-radius: 10px;
+}
+form button:hover{
+    background-color: white;
+    border: solid var(--secondary);
+    color: var(--secondary);
+    cursor: pointer;
+    transition: 300ms;
+
+}

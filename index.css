@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+    font-size: 1.2em;
+}
+/* h3{
+    color: brown;
+} */
+/* anytime there is rem it will divide it from the parent of the em */
+.section{
+    font-size: 1.2rem;
+    border: solid black 2px;
+    width: 70%;
+}
+.section h3{
+    color: coral;
+}
+.section p{
+    color: green;
+}
+.footer{
+    background-color: gray;
+}
+.copyright>p{
+    text-align: center;
+    color: azure;
+}
+.year p{
+    text-align: center;
+    font-size: 2em;
+}
